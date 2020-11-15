@@ -1,0 +1,71 @@
+.svg-animation-container {
+    width: 500px;
+    border-radius: 20%;
+}
+
+
+.svg-animation-container svg {
+    width: 100%
+}
+
+
+#RightHand {
+    animation: rotateHand 1s infinite alternate;
+    transform-origin: 185px 170px;
+    transform-box: fill-box;
+}
+
+@keyframes rotateHand {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-30deg)
+
+    }
+
+}
+
+
+#Head {
+    animation: rotateHead 1.5s infinite ease-out alternate;
+    transform-origin: bottom;
+    /* transform-box: fill-box; */
+}
+
+@keyframes rotateHead {
+    0% {
+        transform: rotate(-0.5deg);
+    }
+    100% {
+        transform: rotate(0.5deg)
+
+    }
+}
+
+
+#LeftLeg {
+    animation: rotateLeg 0.5s infinite ease-out alternate;
+    transform-origin: right;
+    /* transform-box: fill-box; */
+}
+
+@keyframes rotateLeg {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0.5deg)
+
+    }
+}
+
+
+
+
+
+
+
+
+
+

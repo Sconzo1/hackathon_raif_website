@@ -1,0 +1,42 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "",
+  "description": "",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "aos": "^2.3.4",
+    "classnames": "^2.2.6",
+    "easyqrcodejs": "^4.0.0",
+    "js-cookie": "^2.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-credit-cards": "^0.8.3",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
